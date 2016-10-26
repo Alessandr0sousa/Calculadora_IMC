@@ -1,0 +1,41 @@
+@charset "UTF-8";/* Empty. Add your own CSS if you like */
+
+#corpo{
+	background: #6132C1;
+}
+#nome{
+	color: #fff;
+	font-size: 14pt;
+	
+}
+#cx-txt{
+	padding-top: 70%;
+	margin: 2%;
+}
+.item{
+	border-style: none;
+	text-align: left;
+}
+#btn-e{
+	padding: 0;
+	margin: 2%  10% 0 0;
+}
+#nm{
+	color: #000;
+	font-weight: bold;
+	font-size: 14pt;
+}
+#tt{
+	margin-top: 20%;
+}
+#titulo{
+	color: #fff;
+	text-align: center;
+	font-size: 56pt;
+	font-weight: bold;
+}
+#desc{
+	color: #fff;
+	text-align: center;
+	font-size: 16pt;	
+}

@@ -1,0 +1,45 @@
+@charset "UTF-8";/* Empty. Add your own CSS if you like */
+#btn{
+	padding: 0;
+	margin-right: 2%;
+}
+#campos{
+	margin-bottom: 2%;
+}
+#titulo{
+	text-align: left;
+}
+#imc{
+	width: 95%;
+	color: rgb(131,70,253);
+	text-align: center; 
+	font-size: 18pt;
+	font-weight: bold;
+	font-style: italic;
+}
+#resultado{
+	width: 95%;
+	color: rgb(211,5,3);
+	text-align: center; 
+	font-style: italic;
+	font-size: 11pt;
+	font-weight: bold;
+}
+#t_imc{
+	margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 10pt;
+}
+#t_imc th, td {
+	border: solid 1px #ddd;
+	border-collapse: collapse;
+	padding: 0 1%
+}
+#t_imc th{
+	font-weight: bold;
+	font-size: 12pt;
+	color: rgb(211,3,3);
+}
+#t_imc tr:nth-child(even){
+	background: #ddd; /* Linhas com fundo cinza */
+}
