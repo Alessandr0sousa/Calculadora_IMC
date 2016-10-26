@@ -39,11 +39,14 @@ function registrar() {
 
     if(nome=='' || nome == null){
       alert('Digite seu nome');
-      nome.focus();
     } 
     else{
       window.location.href = 'home.html';
       document.getElementById("nick").innerHTML = nome + ", digite seu peso e sua altura";
     };
+}
 
+function voltar() {   
+  var index = document.getElementById('index').value;
+    window.location.href = 'index.html';
 }

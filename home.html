@@ -37,12 +37,13 @@
 
     <ion-pane>
       <ion-header-bar class="bar-stable">
-        <button class="button button-icon icon ion-navicon-round"></button>
+        <!--button class="button button-icon icon ion-navicon-round"></button-->
         <div id="titulo" class="h1 title">Calculador de IMC</div>
+        <button id="index" class="button button-icon icon ion-ios-home" onclick="voltar()"></button>
       </ion-header-bar>     
       <ion-content>
         <div class="item item-divider">
-            <span></span>
+            Peso & Altura
         </div>
         <div id="campos" class="list row">
           <div class="col col-50">
@@ -112,13 +113,15 @@
               <td>Obesidade de grau III (Mórbida)</td>
             </tr>          
           </table>
-          <br />
-          <div align="center">
-            <a href="index.html"> 
-              <button type="button" class="button button-royal button-small">Novo Cálculo</button>
-            </a>
-          </div>
+          </div>      
       </ion-content>
+      <footer id="r-pe" class="bar bar-footer">
+          <button class="button button-clear">Left</button>
+            <div class="title"> 
+            &copy;Alessandro Sousa | <i class="ion-social-facebook"></i>&nbsp;<i class="ion-social-instagram-outline"></i>&nbsp;<i class="ion-social-whatsapp"></i> 
+            </div>
+          <button class="button button-clear">Right</button>
+      </footer>
     </ion-pane>
   </body>
 </html>
